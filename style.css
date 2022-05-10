@@ -18,14 +18,14 @@ main {
 }
 
 #content {
-    background-color: rgba(188, 169, 151, 0.18);
+    background-color: rgba(161, 244, 255, 0.18);
     padding: 0.3rem;
     border: 2px solid var(--line-color);
     flex: 0 1 auto;
 }
 
 .plat {
-    background-color: rgb(158, 141, 125);
+    background-color: rgb(121, 183, 224);
     font-size: 1.6rem;
     cursor: pointer;
     margin-top: 0.1em;
