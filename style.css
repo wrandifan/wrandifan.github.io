@@ -11,9 +11,9 @@ body {
 main {
     margin: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: start;
+    align-items: left;
     height: 100%;
 }
 
