@@ -4,8 +4,8 @@
 
 body {
     background-color: rgb(161, 244, 255);    
-    padding: 0;
-    margin: 0;
+    padding: 1px;
+    margin: 1px;
 }
     
 main {
@@ -19,8 +19,8 @@ main {
 
 #content {
     background-color: rgba(161, 244, 255, 0.18);
-    padding: 0.3rem;
-    border: 0px solid var(--line-color);
+    padding: 0.6rem;
+    border: 2px solid var(--line-color);
     flex: 0 1 auto;
 }
 
@@ -53,7 +53,7 @@ a:first-letter {
 }
 
 a:hover {
-    transform: perspective(1px) translateX(1rem);
+    transform: perspective(1px);
 }
 
 hr {
