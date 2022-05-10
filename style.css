@@ -26,6 +26,7 @@ main {
 
 .plat {
     background-color: rgb(121, 183, 224);
+    font-family: "Comfortaa", sans-serif;
     font-size: 1.6rem;
     cursor: pointer;
     margin-top: 0.1em;
