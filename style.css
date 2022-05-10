@@ -11,7 +11,7 @@ body {
 main {
     margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: left;
     height: 100%;
@@ -20,7 +20,7 @@ main {
 #content {
     background-color: rgba(161, 244, 255, 0.18);
     padding: 0.3rem;
-    border: 12px solid var(--line-color);
+    border: 0px solid var(--line-color);
     flex: 0 1 auto;
 }
 
@@ -29,7 +29,6 @@ main {
     font-size: 1.6rem;
     cursor: pointer;
     margin-top: 0.1em;
-    text-transform: uppercase;
     line-height: 1;
 }
 
