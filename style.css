@@ -1,5 +1,5 @@
 :root {
-  --line-color: #bdac9a;
+  --line-color: #0356fc;
 }
 
 body {
@@ -12,7 +12,7 @@ main {
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     align-items: left;
     height: 100%;
 }
@@ -20,7 +20,7 @@ main {
 #content {
     background-color: rgba(161, 244, 255, 0.18);
     padding: 0.3rem;
-    border: 2px solid var(--line-color);
+    border: 12px solid var(--line-color);
     flex: 0 1 auto;
 }
 
