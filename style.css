@@ -6,6 +6,15 @@
   --text-color: #29334d;
 }
 
+.container{
+    background: #29334d;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 body {
     background-color: var(--bg-color);
     padding: 0;
