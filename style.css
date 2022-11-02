@@ -14,7 +14,34 @@
     align-items: center;
     justify-content: center;
 }
-
+nav{
+    background: #00ffff;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+}
+nav ul li{
+    list-style: none;
+    display: inline-flexbox;
+    padding: 13px 35px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+nav ul li::after{
+    content: '';
+    background: #bdac9a;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
 body {
     background-color: var(--bg-color);
     padding: 0;
