@@ -3,8 +3,8 @@
     --line-color: #000000;
     --bg-color: #fd5e92;  
     --panel-color: rgba(0, 0, 0, 0.18);
-    --theme-color: rgb(158, 141, 125);
-    --text-color: #2f0b5a;
+    --theme-color: #75b5f6;
+    --text-color: #000000;
   }
   
   body {
@@ -22,7 +22,7 @@
       height: 100%;
   }
   
-  #content {
+  content {
       background-color: var(--panel-color);
       padding: 0.3rem;
       border: 2px solid var(--line-color);
@@ -52,10 +52,6 @@
       display: block;
       padding: 0.3rem 2rem 0.3rem 0.75rem;
       transition: transform 0.5s;
-  }
-  
-  a:first-letter {
-      font-size: 1.6em;
   }
   
   a:hover {
