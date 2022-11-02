@@ -1,7 +1,7 @@
 
 :root {
     --line-color: #000000;
-    --bg-color: #1b005a;  
+    --bg-color: #fd5e92;  
     --panel-color: rgba(0, 0, 0, 0.18);
     --theme-color: rgb(158, 141, 125);
     --text-color: #2f0b5a;
@@ -46,7 +46,7 @@
       background-color: rgb(185, 166, 148);
   }
   
-  sectiontext {
+  a {
       color: #30231c;
       text-decoration: none;
       display: block;
@@ -54,11 +54,11 @@
       transition: transform 0.5s;
   }
   
-  sectiontext:first-letter {
+  a:first-letter {
       font-size: 1.6em;
   }
   
-  sectiontext:hover {
+  a:hover {
       transform: perspective(1px) translateX(1rem);
   }
   
