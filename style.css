@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Arial', sans-serif;
+}
+.thename{
+    height: 100rem;
+    width:100%;
+    background-image:url(6c67ea064dde086bbf6068629d8b06667f02e44edfde1671c0b939127129a3a4.jpg);
+    filter: blur(8px);
+    background-size: cover;
+    background-position: center;
+}
