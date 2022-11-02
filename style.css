@@ -12,3 +12,32 @@
     background-size: cover;
     background-position: center;
 }
+nav{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    padding-top: 12rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color: #00ffff;
+    font-size: 32px;
+}
+span{
+    color: #29334d;
+}
+nav ul li{
+    list-style-type:none;
+    display: inline-flex;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color:#29334d ;
+    text-decoration: none;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    color: #00ffff;
+    transition: .2s;
+}
