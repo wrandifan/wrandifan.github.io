@@ -56,8 +56,6 @@ a {
   width: 50%;
 }
 
-}
-
 a:hover {
     transform: perspective(1px);
 }
@@ -66,3 +64,17 @@ hr {
     border: none;
     border-top: 1px solid var(--line-color);
 }
+
+.parallax {
+    /* The image used */
+    background-image: url(bluearchivebkg.jpg);
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
