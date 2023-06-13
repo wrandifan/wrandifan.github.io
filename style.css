@@ -1,79 +1,149 @@
 :root {
-  --line-color: #0356fc;
-}
-
+    --line-color: #0356fc;
+  }
+  
 body {
-    padding: 1px;
-    margin: 1px;
-}
-    
-main {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    height: 100%;
+  height: 100vh;
+  overflow-y: auto;
 }
 
-#content {
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 70%;
+  width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+  
+  #content {
     background-color: rgba(161, 244, 255, 0.18);
     padding: 0.6rem;
     border: 0px solid var(--line-color);
-    flex: 0 1 auto;
-}
-
-.plat {
-    background-color: rgb(121, 183, 224);
+  }
+  
+  .plat {
+    background-color: rgb(252, 179, 246);
     font-family: "Nunito", sans-serif;
     font-size: 2rem;
     cursor: pointer;
     margin-top: 0.1em;
     line-height: 1;
-}
-
-.plat:first-of-type {
+  }
+  
+  .plat:first-of-type {
     margin-top: 0;
-}
-
-.plat:hover {
+  }
+  
+  .plat:hover {
     background-color: rgb(185, 166, 148);
-}
-
-a {
+  }
+  
+  a {
     color: #30231c;
     text-decoration: none;
     display: block;
     padding: 0.3rem 2rem 0.3rem 0.75rem;
     transition: transform 0.5s;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-a:hover {
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  a:hover {
     transform: perspective(1px);
-}
-
-hr {
+  }
+  
+  hr {
     border: none;
     border-top: 1px solid var(--line-color);
-}
-
-.parallax {
+  }
+  
+  .parallax {
     /* The image used */
     background-image: url(/bluearchivebkg.jpg);
-  
+    
     /* Set a specific height */
-    height: 100%;
-  
+    height: 100vh;
+    
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+  }
+
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .parallax {
+    background-image: url(/bluearchivebkg.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  
+
+  
+  .horizontal-navbar {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    overflow-x: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .horizontal-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .horizontal-navbar li {
+    padding: 10px;
+  }
+  
+  .horizontal-navbar li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .horizontal-navbar li a:hover {
+    color: #f00;
   }
