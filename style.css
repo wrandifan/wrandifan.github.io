@@ -108,10 +108,16 @@ main {
     list-style-type: none;  
     position:fixed;
     background-color: rgba(255,255,255,.18);
+   .gblock li {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+  .gblock li span {
+      flex-grow: 1;
+      text-align: left;
+      padding-right: 10px;
+    }
+    
   
-  }
-  
-  span {
-    background-color: rgba(227, 222, 220,  0.8);
-    display:flex;
   }
