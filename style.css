@@ -106,10 +106,10 @@ main {
   .gachaids:before {
     content: "";
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 10%;
     right: 10%;
-    bottom: 20%;
+    bottom: 35%;
     background-color: rgba(255, 255, 255, 0.6);
     z-index: -1;
   }
@@ -126,6 +126,7 @@ main {
   
   .gachaids li {
     margin-bottom: 10px;
+    text-align: center;
   }
   
   
