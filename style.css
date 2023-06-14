@@ -99,7 +99,7 @@ main {
     align-items: center;
     height: 100%;
     
-    text-align:left;
+    text-align:center;
     font-size:1.2em;
     line-height: 1.5;
    
@@ -112,5 +112,5 @@ main {
   
   span {
     background-color: rgba(227, 222, 220,  0.8);
-    display:inline-block;
+    display:flex;
   }
