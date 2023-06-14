@@ -25,7 +25,7 @@ main {
 }
   
   #content {
-    background-color: rgba(161, 244, 255, 0.18);
+    background-color: rgba(255, 255, 255, 0.18);
     padding: 0.6rem;
     border: 0px solid var(--line-color);
   }
@@ -91,3 +91,20 @@ main {
   }
 
 
+.gachablock {
+  text-align:right;
+  font-size:1.2em;
+  line-height: 1.5;
+ 
+  right:0;
+  display: block;
+  list-style-type: none;  
+  position:fixed;
+}
+
+
+span {
+  background-color: rgba(255, 255, 255, 0.18);
+  display:inline-block;
+  
+}
