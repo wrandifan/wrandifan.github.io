@@ -91,7 +91,7 @@ main {
   }
 
 
-  .sitemap {
+  .gblock {
     margin-top: 30vh; 
     margin-right:5vw;
     z-index:1;
@@ -101,7 +101,7 @@ main {
     line-height: 1.5;
    
     right:0;
-    display: block;
+    display: flex;
     list-style-type: none;  
     position:fixed;
     background-color: rgba(255,255,255,.18);
