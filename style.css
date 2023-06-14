@@ -92,16 +92,18 @@ main {
 
 
   .gblock {
-    margin-top: 30vh; 
-    margin-right:5vw;
-    z-index:1;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     
-    text-align:right;
+    text-align:left;
     font-size:1.2em;
     line-height: 1.5;
    
     right:0;
-    display: flex;
     list-style-type: none;  
     position:fixed;
     background-color: rgba(255,255,255,.18);
